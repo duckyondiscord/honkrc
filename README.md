@@ -1,2 +1,2 @@
 # honkrc
-a shitty init script in cpp
+An init system (that will be)written in C++ mostly for fun.
