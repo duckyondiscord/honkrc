@@ -1,5 +1,5 @@
 #include <iostream>
-#include <thread>
+// #include <thread> Commented because I cannot figure out how to run each script on a separate thread
 #include <string>
 #include <unistd.h>
 
