@@ -21,7 +21,7 @@ int main(int argc, char** argv)
 		if(returnvalue != 0)
 		{
 			// Let the user know whether there was an error while running the services
-			std::cout << "An error occured while running scripts, EXITING!";
+			std::cout << "An error occured while running scripts, EXITING!\n";
 		}
 	  }
 	else 
