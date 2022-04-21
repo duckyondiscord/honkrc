@@ -1,5 +1,5 @@
 #include <iostream>
-// #include <thread> Commented because I cannot figure out how to run each script on a separate thread
+#include <thread>
 #include <string>
 #include <unistd.h>
 
@@ -21,7 +21,7 @@ int main(int argc, char** argv)
 		if(returnvalue != 0)
 		{
 			// Let the user know whether there was an error while running the services
-			std::cout << "An error occured while running scripts, EXITING!\n";
+			std::cout << "An error occured while running scripts, EXITING!";
 		}
 	  }
 	else 
