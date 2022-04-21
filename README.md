@@ -1,3 +1,3 @@
 # honkrc
-A crappy init system that is written in C++ to replace those annoying 5737659368367783565386 second systemd boot up times.
-DO NOT USE YET! THIS IS BROKEN RIGHT NOW.
+A crappy init system(more like an init script runner) that is written primarily in C++. Scripts are written in bash.
+Only single-threaded exectution works currently, planning support for multi-threaded mode later on, can't figure out how I can create a thread for each separate script, that's what's stopping me right now.
